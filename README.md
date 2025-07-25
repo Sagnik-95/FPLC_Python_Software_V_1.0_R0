@@ -98,3 +98,24 @@ Login: Use the hardcoded credentials (username: "Sagnik", password: "password") 
 
 Project Structure
 The code is modularized into several Python files (as indicated by the imports) to manage different aspects of the FPLC system, including UI components, hardware control, data processing, user management, and system configuration.
+
+
+sequenceDiagram
+    participant User
+    participant GUI as IndustrialFPLCSystem
+    participant Controller as FPLCController
+    participant Serial as FPLCSerialManager
+    participant Data as DataProcessor
+    participant Plot as ChromatogramPlot
+    participant Fraction as FractionCollector
+
+    User->>GUI: Login & start run
+    GUI->>Controller: Initialize run with method
+    Controller->>Serial: Send hardware commands
+    Serial-->>Controller: Emit real/simulated data
+    Controller-->>GUI: Emit run progress, step info
+    GUI->>Plot: Update chromatogram
+    GUI->>Fraction: Update fraction collection
+    Controller->>Data: Analyze data (periodically)
+    User->>GUI: Pause/stop/export data
+
