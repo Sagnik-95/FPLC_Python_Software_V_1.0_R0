@@ -7,19 +7,19 @@ The FPLC_MODULAR_FINAL is a robust and much more efficient code with dependencie
 FPLC Control Software: README
 This document provides an overview of the Fast Protein Liquid Chromatography (FPLC) Control Software.
 
-Project Title
+Project Title:
 Fast Protein Liquid Chromatography (FPLC) Control Software
 
-Author
+Author:
 Sagnik Mitra
 
-License
+License:
 IIT INDORE
 
-Overview
+Overview:
 This software is a comprehensive suite designed for managing and controlling protein purification workflows using FPLC systems. It integrates detailed (simulated) hardware communication protocols and incorporates a conceptual Model Predictive Control (MPC)-like logic for precise pressure and gradient control during chromatographic runs.
 
-Key Features
+Key Features:
 User Interface (GUI): Built with PyQt6, providing an intuitive graphical interface for system control, monitoring, and data visualization.
 
 Simulated Hardware Communication: Features simulated protocols for interacting with FPLC hardware components.
