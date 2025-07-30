@@ -10,6 +10,7 @@ Rabbits cheer—let reviews begin!
 
 This is a Python based FPLC software with in-built features. The FINAL_UPDATED_FPLC_WITH_PASSWORD_PROTECTION.py is a single shot run for the FPLC software interface. 
 The FPLC_MODULAR_FINAL is a robust and much more efficient code with dependencies on other 16 code files provided along with it. Please feel free to use it 
+![Screenshot_30-7-2025_233629_github com](https://github.com/user-attachments/assets/42f482f3-e7ba-45db-ad7f-fe0280e1d7c1)
 
 
 FPLC Control Software: README
