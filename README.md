@@ -27,7 +27,7 @@ Fast Protein Liquid Chromatography (FPLC) Control Software
 Author:
 Sagnik Mitra
 
-License:
+Location:
 IIT INDORE
 
 Overview:
