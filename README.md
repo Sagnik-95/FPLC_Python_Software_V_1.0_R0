@@ -1,10 +1,15 @@
 # FPLC_Software
 
 In the warren of FPLC code,
+
 Modular wonders now explode!
+
 With peaks and fractions, flows and states,
+
 The system logs, authenticates.
+
 Chromatograms shine, users log in,
+
 Rabbits cheer—let reviews begin!
 
 
